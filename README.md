@@ -14,7 +14,7 @@ As premissas para o experimento são:
 
 O uso de regex para a extração dos dados foi testada preveamente mas não apresentou boa performance e, por isso, foi descartada.
 
-Foram feitos testes usando CPython (Python 3.5), PyPy2.7 (v5.8.0) e Go (v1.8.3). Todos os testes rodaram no mesmo hardware com OS Ubuntu 14.04 e processaram a mesma massa de dados.
+Foram feitos testes usando CPython (Python 3.5), PyPy2.7 (v5.8.0) e Go (v1.8.3). Todos os testes rodaram no mesmo hardware com OS Ubuntu 14.04, ArangoDB 3.2.1 local e processaram a mesma massa de dados.
 
 A massa de dados consiste em 100 arquivos de log no formato texto, num total de 2,4G de dados (2402 mega).
 
