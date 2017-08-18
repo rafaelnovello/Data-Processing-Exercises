@@ -26,3 +26,12 @@ CPython|3:50 min|10.560.341
 PyPy|2:41 min|10.560.341
 Go|4:25 min|10.560.341
 
+Abaixo esta um print do painel de controle do ArangoDB onde é possível ver as taxas de requisições por segunto e de transferência de dados por segundo:
+
+![ArangoDB-Panel](ArangoDB-Panel.png)
+
+Dentre os 3 testes o PyPy foi o que conseguiu as melhores taxas de requisição e transferência por segundo.
+
+## Considerações
+
+Por não ter experiência com a linguagem Go, é quase certo que existem várias oportunidades de otimização no script Go. Por isso peço que entrem em contato se souberem como otimizar o script em Go (e o script Python também!)
