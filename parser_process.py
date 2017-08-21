@@ -46,7 +46,7 @@ def task(line):
 
 
 def worker(filename):
-    conn = Connection(username='root', password='11235813')
+    conn = Connection(username='user', password='pass')
     db = conn['_system']
     try:
         coll = db.collections['logs']

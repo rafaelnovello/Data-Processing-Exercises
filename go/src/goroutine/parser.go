@@ -57,7 +57,7 @@ func main() {
     })
     client, _ := driver.NewClient(driver.ClientConfig{
         Connection: conn,
-        Authentication: driver.BasicAuthentication("root", "11235813"),
+        Authentication: driver.BasicAuthentication("user", "pass"),
     })
     db, _ := client.Database(nil, "_system")
 
