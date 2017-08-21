@@ -54,6 +54,8 @@ Foi tirado um novo print do painel do ArangoDB onde podemos ver que a quantidade
 
 ![ArangoDB-Panel](async-arangodb.png)
 
+O PyPy continuou com a vantagem nos testes feitos com paralelismo, podemos ver que ele conseguiu as melhores taxas de requisição por segundo e transferencia por segundo. 
+
 ## Considerações
 
 Por não ter experiência com a linguagem Go, é quase certo que existem várias oportunidades de otimização no script Go. Por isso peço que entrem em contato se souberem como otimizar o script em Go (e o script Python também!)
