@@ -30,7 +30,7 @@ Dentre os 3 testes o PyPy foi o que conseguiu as melhores taxas de requisição 
 
 ## Experimento 2 - Processamento Assíncrono
 
-Após os primeiros resultados e algumas sugestões para usar [goroutines](https://tour.golang.org/concurrency/1) foram criadas novas versões dos scripts, agora para processar os dados paralelamente.
+Após os primeiros resultados e algumas sugestões para usar [goroutines](https://tour.golang.org/concurrency/1), foram criadas novas versões dos scripts, agora para processar os dados paralelamente.
 
 As premissas para este experimento são:
 
